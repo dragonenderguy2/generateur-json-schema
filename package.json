@@ -1,0 +1,16 @@
+{
+  "name": "generateur-json-schema",
+  "version": "1.0.0",
+  "description": "Un outil pour générer un schéma JSON basé sur des données d'entrée pour faciliter la validation des API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ajv": "^6.12.6"
+  },
+  "author": "Votre Nom",
+  "license": "MIT"
+}
