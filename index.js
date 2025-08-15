@@ -12,6 +12,7 @@ app.post('/generate-schema', (req, res) => {
   // Logique pour générer un schéma JSON basé sur les données d'entrée
   const data = req.body;
   // À compléter : créer un schéma à partir des données
+  // TODO: Implémenter la logique pour créer un schéma valide basé sur les données d'entrée.
   const schema = {}; // Exemple de schéma généré
   res.json(schema);
 });
